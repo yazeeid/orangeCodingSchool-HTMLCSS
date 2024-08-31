@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            
+        }
+        header {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 40px; 
+        }
+
+        header img {
+            max-width: 120px; 
+        }
+        .login{
+            width: 360px;
+            margin: auto;
+            position: relative;
+        }
+        .form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 290px;
+            max-width: 360px;
+            background-color: rgb(255, 255, 255);
+            /* margin: 0 auto 100px; */
+            padding: 35px;
+            text-align: center;
+            box-shadow: 0px 1px 20px -11px rgba(0,0,0,0.75);
+        }
+        .form1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            max-width: 360px;
+            background-color: rgb(255, 255, 255);
+            /* margin: 0 auto 100px; */
+            padding: 45px;
+            text-align: center;
+            
+        }
+        .form input{
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1;
+            margin-top: 6%;
+            width: 300px;
+            padding: 11px;
+            padding-right: 100px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        .form .button1{
+            width: 100%;
+            padding: 15px;
+            border-radius: 20px;
+            background-color: #0a65c2;
+            border: none;
+            color: antiquewhite;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        .form .button2{
+            width: 100%;
+            padding: 15px;
+            border-radius: 20px;
+            background-color: #ffffff;
+            color: rgb(112, 112, 112);
+            font-size: 15px;
+            margin-top: 8px;
+        }
+        .form .message{
+            font-size: 16px;
+            
+        }
+        .form .message a{
+            text-decoration: none;
+            color: #1b7adf;;
+        }
+        hr{
+            
+            width:120px;display:inline-block;
+            margin-top: 20px;
+
+        }
+        .s1 a{
+            text-decoration: none;
+        }
+        footer {
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            border-top: 1px solid #ccc;
+            background-color: #fff;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #262424;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 12px;
+        }
+        .ta12{
+            text-align: left ;
+        }
+        .ta123{
+            font-size: xx-large;
+            font-weight: bold;
+        }
+        .ta1234{
+            font-size: small;
+        }
+        
+        
+    </style>
+</head>
+
+<header>
+    <img src="../Assets/linkedin.png" alt="LinkedIn Logo">
+</header>
+<body>
+    <p></p>
+    <div class="login">
+        <div class="form1">
+            <form action="" class="form">
+                <div class="ta12" >
+                    <span class="ta123">Sign in</span>
+                    <br>
+                    <span class="ta1234">Stay updated on your professional world</span>
+                </div>
+                <input type="text" name="n1" placeholder="Email or Phone">
+                <input type="password" name="n2" placeholder="Password">
+                <p class="message" style="text-align: start;"><a href="#">Forgot password?</a></p>
+                <button class="button1" type="submit">Sign in</button>
+                <hr>
+                <span style="font-size: large; color: #888;"> or </span>
+                <hr>
+                <button class="button2" type="submit"><i class="fa-brands fa-apple"></i> Sign in with Apple</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="s1">
+        <span>New to LinkedIn? <a href="#">Join now</a></span>
+    </div>
+    
+    <footer>
+        <span style="font-weight: bold;">LinkedIn</span> © 2021  
+        <a href="#">User Agreement</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Community Guidelines</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Copyright Policy</a>
+        <a href="#">Send Feedback</a>
+        <a href="#">Language</a>
+    </footer>
+</body>
+</html>

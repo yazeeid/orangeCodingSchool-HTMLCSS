@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background:linear-gradient(#3cbaa3,#6ecca7);  /*#1abc9c*/
+            
+        }
+        .login{
+            width: 360px;
+            margin: auto;
+            position: relative;
+        }
+        .form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            max-width: 360px;
+            background-color: rgb(255, 255, 255);
+            /* margin: 0 auto 100px; */
+            padding: 55px;
+            text-align: center;
+            box-shadow: 0px 1px 20px -11px rgba(0,0,0,0.75);
+        }
+        .form1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            max-width: 360px;
+            background-color: rgb(255, 255, 255);
+            /* margin: 0 auto 100px; */
+            padding: 45px;
+            text-align: center;
+            
+        }
+        .form .zl1{
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1;
+            margin-top: 10%;
+            padding: 15px;
+            padding-right: 100px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        
+        .form label{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-right: 180px;
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+        .bebo{
+            margin-top: 2%;
+        }
+        .button1{
+            width: 40%;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #37a08d;
+            border: none;
+            color: antiquewhite;
+            font-size: 15px;
+            margin-bottom: 8px;
+            margin-top: 50px;
+        }
+        .cct{
+            margin-top: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            
+        }
+        .aa1 a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color:#37a08d;
+        }
+        .aa2 a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color:#37a08d;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    <div class="login">
+        <div class="form1">
+            <form action="" class="form">
+                <div>
+                    <span style="font-size: xx-large; font-weight: bold; text-align: center; color: #3cbaa3;">Login</span>
+                    <br>
+                </div>
+                <input class="zl1" type="text" name="n1" placeholder="Email">
+                <input class="zl1" type="password" name="n2" placeholder="password">
+                <input class="bebo" type="checkbox" id="t1" name="show">
+                <label class="bebo" for="t1">Show Password</label>
+                <button class="button1" type="submit">SIGN IN</button>
+                <br>
+                <div class="cct">
+                    <span class="aa1">Forgot <a href="#">Username / Password?</a></span>
+                    <br>
+                    <span class="aa2">Don't have an account? <a href="#">Sign up</a></span>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
