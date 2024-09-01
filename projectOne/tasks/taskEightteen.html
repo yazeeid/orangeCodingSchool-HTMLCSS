@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            width: 80%;
+            max-width: 800px;
+            background-color: #fff;
+            border: 5px solid #d4a017;
+            padding: 10px;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            color: white;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            background-color: teal;
+        }
+
+        .box:nth-child(1) { background-color: #1abc9c; }
+        .box:nth-child(2) { background-color: #3498db; }
+        .box:nth-child(3) { background-color: #9b59b6; }
+        .box:nth-child(4) { background-color: #2c3e50; }
+        .box:nth-child(5) { background-color: #f1c40f; }
+        .box:nth-child(6) { background-color: #e67e22; }
+        .box:nth-child(7) { background-color: #e74c3c; }
+        .box:nth-child(8) { background-color: #95a5a6; }
+        .box:nth-child(9) { background-color: #27ae60; }
+        .box:nth-child(10) { background-color: #16a085; }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+</body>
+</html>

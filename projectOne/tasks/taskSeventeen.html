@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: 1fr 3fr 1fr;
+            grid-template-columns: 3fr 1fr;
+            grid-template-areas: 
+                "header header"
+                "main sidebar"
+                "footer footer";
+            gap: 10px;
+            width: 90%;
+            max-width: 1200px;
+            height: 90%;
+            max-height: 600px;
+        }
+
+        .item {
+            border: 5px solid white;
+            background-color: #333;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: black;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: orange;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: green;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item header"></div>
+        <div class="item main"></div>
+        <div class="item sidebar"></div>
+        <div class="item footer"></div>
+    </div>
+</body>
+</html>

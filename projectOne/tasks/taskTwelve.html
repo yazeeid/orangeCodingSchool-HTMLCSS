@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #e3e3ff; /*#8886c7;                       /* background:linear-gradient(#3cbaa3,#6ecca7);  /*#1abc9c*/
+            
+        }
+        .login{
+            width: 360px;
+            margin: auto;
+            position: relative;
+        }
+        .form{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            max-width: 360px;
+            background-color: #8886c7;
+            padding: 55px;
+            text-align: center;
+            box-shadow: 0px 1px 20px -11px rgba(0,0,0,0.75);
+        }
+
+         
+        .form .zl1{
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1;
+            margin-top: 10%;
+            padding: 15px;
+            padding-right: 100px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        
+        .form label{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-right: 180px;
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+        .bebo{
+            margin-top: 15%;
+            font-size: small;
+            color: #ffffff;
+        }
+        .button1{
+            width: 100%;
+            padding: 15px;
+            border-radius: 15px;
+            background-color: #8f8c87;
+            border: none;
+            color: antiquewhite;
+            font-size: 18px;
+            margin-bottom: 8px;
+            margin-top: 50px;
+
+        }
+        .cct{
+            margin-top: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #ffffff;
+
+            
+        }
+        .aa1 a{ 
+            font-family: Arial, Helvetica, sans-serif;
+            color:#ffffff;
+        }
+        .aa2{ 
+            font-family: Arial, Helvetica, sans-serif;
+            color:#ffffff;
+        }
+        .o11{
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+            padding: 10px;
+        }
+        .o22{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            padding: 10px;
+        }
+        .group input{
+            margin: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+        .o11 input{
+            margin: 5px;
+            
+            padding: 10px;
+        }
+        .o11{
+            margin: 0px;
+            margin-left: 5px;
+            padding: 0px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="login">
+        <div class="form1">
+            <form action="" class="form">
+                <div>
+                    <span style="font-size: xx-large; font-weight: bold; text-align: center; color: #ffffff;">Sign Up</span>
+                    <br>
+                </div>
+                <div class="ppg">
+                    <div class="o11">
+                        <input   type="text" name="n1" placeholder="First Name">
+                        <input   type="password" name="n2" placeholder="Last Name">
+                    </div>
+                        <div class="group">
+                            <input  type="text" name="n3" placeholder="Email">
+                            <input  type="password" name="n4" placeholder="Password">
+                            <input  type="password" name="n5" placeholder="Confirm Password">
+                        </div>
+                </div>
+                
+                
+                <input class="bebo" type="checkbox" id="t1" name="show">
+                <label class="bebo" for="t1" style="padding-right: 10px; font-size: small;">I accept the Terms of use & Privacy Policy</label>
+                <button class="button1" type="submit">Sign Up</button>
+                <br>
+                <div class="cct">
+                    <span class="aa1">Already have an account? <a href="#">Login here?</a></span>
+                    <br>
+                    <span class="aa2">Copyright @ YourCompany.com </span>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
